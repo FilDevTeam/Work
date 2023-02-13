@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>1</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <a href=""><img src="../img/Burger.svg" alt=""></a>
+        <a href=""><img src="../img/Burger.svg" alt="" style="top: 10px;"></a>
         <a href="../html/index.html"><img src="../img/home.svg" alt=""></a>
-        <form action="" method="get">
+        <form action="" method="get" class="search_all">
             <div class="searchbutton"><button type="submit" id="buttonsea"><img src="../img/search.svg" alt=""></button></div>
             <input name="searcher" placeholder="Поиск" type="search">
         </form>
@@ -22,21 +22,19 @@
         </div>
         
     </header>
-    <main>
-        <div class="enter">
-            <h2>Войти</h2>
-            <a href="" class="joinWith"><img src="../img/Google.svg" alt="">Войти через Google</a> <br>
-            <a href="" class="joinWith"><img src="../img/VK.svg" alt="">Войти через VK</a>
-            <p>Email</p>
-            <form action="text" class="formed"><input class="inputform" name="mail" type="search"></form>
-            <p>Пароль</p>
-            <form action="text" class="formed"><input class="inputform" name="pass" type="search"></form>
-            <a href="">Забыли пароль?</a>
-            <button type="submit">Войти</button> <br>
-            Используя для входа Google, Apple или Email-адрес, вы соглашаетесь с Условиями использования и Политикой конфиденциальности. <br>
-        </div>
-        <p class="newacc">Ещё нет аккаунта? <a href="">Зарегестрироваться</a></p>
+    <main class="main">
+        <h2>Войти</h2>
+        <a href="" class="joinWith"><img src="../img/Google.svg" alt="">Войти через Google</a> <br>
+        <a href="" class="joinWith"><img src="../img/VK.svg" alt="" >Войти через VK</a>
+        <h3>Email</h3>
+        <form action="text" class="formed"><input class="inputform" name="mail" type="search"></form>
+        <h3>Пароль</h3>
+        <form action="text" class="formed"><input class="inputform" name="pass" type="search"></form>
+        <a href="">Забыли пароль?</a>
+        <button type="submit" class="enter">Войти</button> <br>
+        Используя для входа Google, Apple или Email-адрес, вы соглашаетесь с Условиями использования и Политикой конфиденциальности. <br>
     </main>
+    <p class="out">Ещё нет аккаунта? <a href="../html/main.html">Зарегестрироваться</a></p>
     <script src="../js/script.js"></script>
 </body>
 </html>

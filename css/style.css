@@ -4,18 +4,16 @@ html{
 body{
     background-color: #F4F6FC;
     margin: 0%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 header {
 	display: flex;
     background-color: #B73C58;
-    gap: 26.4px;
+    gap: 24px;
 }
 a{
     text-decoration: none;
 }
-
-
 .search_all{
     display: flex;
     flex-direction: row;
@@ -24,7 +22,8 @@ a{
     background: #FDFDFD;
     border-radius: 4px;
     width: 226px;
-    height: 25px;
+    height: 24px;
+    margin-top: 5px;
 }
 .searchbutton {
     width: 16px;
@@ -45,17 +44,14 @@ a{
     border: none;
     border-radius: 4px;
 }
-
-.add{
-    background-color: #B73C58;   
-}
 .account{
     border-radius: 100%;
 }
 .right{
     display: flex;
-    position: relative;
-    margin-left: 90%;
+    justify-content: right;
+    flex-grow: 1;
+    gap: 24px;
 }
 .inputform{
     width: 100%;
@@ -64,15 +60,54 @@ a{
     border: 1px solid #828282;
     border-radius: 4px;
 }
-.formed{
-    margin-left: 10%;
-    margin-right: 10%;
-}
 h2{
     font-weight: 600;
     font-size: 32px;
     line-height: 32px;
 }
+h3{
+    font-size: 16px;
+}
+.newacc{
+    text-align: center;
+}
+.enter{
+    display: flex;
+    flex-direction: row;
+    padding-left: 32px;
+    width: 105px;
+    height: 36px;
+    background: #B73C58;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #FDFDFD;
+}
+@media (min-width: 1440px){
+    .main-index{
+        margin-top: 206px;
+        margin-left: 720px;
+        width: 360px;
+        order: 1;
+    }}
+@media(min-width: 768px){
+    .main-index{
+        margin-top: 206px;
+        margin-left: 204px;
+        width: 360px;
+        order: 2;
+    }}
+@media(min-width: 1920px) {
+    .main-index{
+        margin-top: 206px;
+        margin-left: 760px;
+        width: 360px;
+        order: 3;
+    }}
 .joinWith{
     border: 1px black solid;
     box-sizing: border-box;
@@ -81,39 +116,19 @@ h2{
     justify-content: center;
     padding: 8px 32px;
     gap: 8px;
-    margin-left: 16px;
-    margin-right: 16px;
     border-radius: 4px;
     font-weight: 600;
     color: black;
 }
-h3{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-}
-.newacc{
-    text-align: center;
-}
-.enter{
-    background-color: #B73C58;
-    font-family: 'Roboto';
-    color: #FDFDFD;
-}
-.main{
-    text-align: center;
-    margin-top: 10%;
-    background-color: white;
-    margin-left: 40%;
-    margin-right: 40%;
-    border-radius: 1%;
-}
 .out{
     text-align: center;
 }
-main{
+.main-index{
     margin-top: 104px;
-    margin-left: 33%;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 16px;
 }
 button{
     background-color: transparent;
@@ -122,7 +137,8 @@ button{
     text-align: right;
 }
 button:hover{
-    color: #B73C58;
+    color: #d8d8d8;
+    background-color: #99344b;
 }
 .today{
     font-style: normal;
@@ -178,4 +194,32 @@ button:hover{
     height: 30px;
     background: #FDFDFD;
     border-radius: 4px;
+}
+.burger{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.outer{
+    width: 343px;
+    height: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    text-align: left;
+}
+.text{
+    text-align: left;
+}
+.main-page{
+    margin-top: 206px;
+    margin-left: 760px;
+    width: 360px;
+    order: 3;
+    margin-top: 104px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 16px;
 }

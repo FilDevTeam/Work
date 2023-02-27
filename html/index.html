@@ -6,34 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
-        <a href=""><img src="../img/Burger.svg" alt="" style="top: 10px;"></a>
-        <a href="../html/index.html"><img src="../img/home.svg" alt=""></a>
+        <a href="" class="burger"><img src="../img/Burger.svg" alt="" ></a>
+        <a href="../html/index.html" style="margin-top: 5px;"><img src="../img/home.svg" alt=""></a>
         <form action="" method="get" class="search_all">
             <button type="submit" id="buttonsearch" class="searchbutton"><img src="../img/search.svg" alt=""></button>
             <input name="searcher" placeholder="Поиск" type="search" class="search">
         </form>
         <div class="right">
-            <button type="" class="add"><img src="../img/Add.svg" alt=""></button>
-            <div><img src="../img/notifications.svg" alt=""></div>
-            <div><img src="../img/User.svg" alt=""></div>
+            <button type=""><img src="../img/Add.svg" alt=""></button>
+            <button type=""><img src="../img/notifications.svg" alt="" width="24px" height="24px"></button>
+            <button type=""><img src="../img/User.svg" width="24px" height="24px" alt=""></button>
         </div>
     </header>
-    <main class="main">
-        <h2>Войти</h2>
+    <main class="main-index">
+        <h2 style="display: flex;">Войти</h2>
         <a href="" class="joinWith"><img src="../img/Google.svg" alt="">Войти через Google</a> <br>
         <a href="" class="joinWith"><img src="../img/VK.svg" alt="" >Войти через VK</a>
-        <form action="text" class="formed">
-        <h3>Email</h3>
-        <input class="inputform" name="pass" type="search">
-        <h3>Пароль</h3>
-        <input class="inputform" name="pass" type="search">
-        </form>
-        <a href="">Забыли пароль?</a>
-        <button type="submit" class="enter">Войти</button> <br>
-        Используя для входа Google, Apple или Email-адрес, вы соглашаетесь с Условиями использования и Политикой конфиденциальности. <br>
+        <div class="text">
+            <form action="text">
+                <h3>Email</h3>
+                <input class="inputform" name="pass" type="search">
+                <h3>Пароль</h3>
+                <input class="inputform" name="pass" type="search">
+            </form>
+            <a href="">Забыли пароль?</a>
+        </div>
+        <button type="submit" class="enter"> <p style="text-align: center;">Войти</p></button>
+        <p class="outer">Используя для входа Google, Apple или Email-адрес, вы соглашаетесь с Условиями использования и Политикой конфиденциальности.</p>
     </main>
     <p class="out">Ещё нет аккаунта? <a href="../html/main.html">Зарегистрироваться</a></p>
     <script src="../js/script.js"></script>
